@@ -47,7 +47,7 @@ main  {
   margin-bottom: 20px;
   float: left;
 }
-h1 {
+h2 {
   font-size: 20px;
   font-weight: bold;
   color: rgb(58, 123, 45);
@@ -67,14 +67,28 @@ h1 {
   margin-right: 100px;
 }
 .zangeres{
-  height: 300px;
-  width: 300px;
+  height: 280px;
   float:left;
   margin-top: 72px;
   margin-right: 20px;
 }
+#zangeres {
+  height: 290px;
+  float: left;
+  margin-bottom: 10px;
+}
 .levenslied{
   height:300px;
-  width: 850px;
+  width: 950px;
   float:left;
+}
+h3 {
+  font-size: 15px;
+  display: block;
+}
+#fb {
+  width: 120px;
+  position: absolute;
+  bottom: 150px;
+  left: 550px;
 }

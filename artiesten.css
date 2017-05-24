@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(71,71,71);
+  background-color: rgb(243,231,209);
+  font-family: "helvetica";
 }
 .logo {
   width: 100px;
@@ -10,7 +11,7 @@ body {
 }
 header {
   width: 1200px;
-  border: 3px solid rgb(58, 123, 45);
+  border: 5px solid rgb(58, 123, 45);
   border-top: 0px;
   border-radius: 3px;
   padding:5px;
@@ -20,6 +21,7 @@ header {
   left: 185px;
   background-color: rgb(243,231,209);
   z-index: 10;
+  box-shadow: 0px 5px 15px;
 }
 li img{
   height: 100px;
@@ -29,7 +31,6 @@ li img{
 }
 main  {
   width: 1200px;
-  border-radius: 3px;
   margin:auto;
   margin-top:10px;
   padding:5px;
@@ -43,4 +44,12 @@ main  {
 }
 #titel {
   height: 100px;
+  margin-bottom: 20px;
+  float: left;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(58, 123, 45);
+  margin-bottom: 10px;
 }

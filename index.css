@@ -44,3 +44,34 @@ main  {
 #titel {
   height: 100px;
 }
+.troost{
+  width:600px;
+  margin-top: 50px;
+  margin-left:75px;
+  float:left;
+}
+.fototroost{
+  width:300px;
+  height:300px;
+  float:left;
+  margin-left:100px;
+}
+.schuin {
+  width: 300px;
+}
+.zangeres{
+  height:300px;
+  width:300px;
+  float:left;
+  margin-left:75px;
+  margin-top:50px;
+  border:2px solid black;
+}
+.levenslied{
+  height:300px;
+  width:600px;
+  float:left;
+  margin-top:50px;
+  margin-left:100px;
+  border:2px solid black;
+}

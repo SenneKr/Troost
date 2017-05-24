@@ -1,5 +1,6 @@
 body {
   background-color: rgb(243,231,209);
+  font-family: "helvetica";
 }
 .logo {
   width: 100px;
@@ -30,7 +31,7 @@ li img{
 }
 main  {
   width: 1200px;
-  border-radius: 3px;
+  border: 1px solid;
   margin:auto;
   margin-top:10px;
   padding:5px;
@@ -44,35 +45,38 @@ main  {
 }
 #titel {
   height: 100px;
+  margin-bottom: 20px;
+  float: left;
+}
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(58, 123, 45);
 }
 .troost{
-  width:600px;
-  margin-top: 50px;
-  margin-left:75px;
-  float:left;
+  width:650px;
+  float: left;
 }
-.fototroost{
+.schuin{
   width:300px;
   height:300px;
-  float:left;
-  margin-left:100px;
 }
 .schuin {
   width: 300px;
+  float: right;
+  margin-right: 100px;
 }
 .zangeres{
   height:300px;
   width:300px;
   float:left;
-  margin-left:75px;
-  margin-top:50px;
-  border:2px solid black;
+  border:1px solid black;
+  margin-top: 81px;
+  margin-right: 20px;
 }
 .levenslied{
   height:300px;
-  width:600px;
+  width: 850px;
   float:left;
-  margin-top:50px;
-  margin-left:100px;
-  border:2px solid black;
+  border:1px solid black;
 }

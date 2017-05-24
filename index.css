@@ -31,7 +31,6 @@ li img{
 }
 main  {
   width: 1200px;
-  border: 1px solid;
   margin:auto;
   margin-top:10px;
   padding:5px;
@@ -71,7 +70,6 @@ h1 {
   height: 300px;
   width: 300px;
   float:left;
-  border:1px solid black;
   margin-top: 72px;
   margin-right: 20px;
 }
@@ -79,5 +77,4 @@ h1 {
   height:300px;
   width: 850px;
   float:left;
-  border:1px solid black;
 }

@@ -25,10 +25,9 @@ header {
   box-shadow: 0px 5px 15px;
 }
 li img{
-  width:21%;
+  width:21.5%;
   display: inline;
   float: left;
-  mix-blend-mode: multiply;
 }
 main  {
   width: 74%;

@@ -42,6 +42,7 @@ main  {
 }
 #artiesten img{
   border-bottom: 3px solid rgb(188, 51, 51);
+  border-radius: 0px;
 }
 #titel {
   height: 100px;
@@ -121,7 +122,32 @@ img {
     clear: both;
     width: 100%;
   }
-  img {
-    width: 500px;
+  .joske img {
+    width: 20%
+  }
+  .herbert img {
+    width: 20%
+  }
+  .bianca img {
+    width: 20%
+  }
+  .rooswaal img {
+    width: 20%
+  }
+  p {
+    width: 60%;
+  }
+  #titel{
+    height: 7%;
+    margin-top: -20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #titel {
+    margin-top: -50px;
+  }
+  p {
+    width: 75%;
+    font-size: 13px;
   }
 }

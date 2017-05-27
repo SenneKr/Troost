@@ -27,7 +27,6 @@ li img{
   height: 100px;
   display: inline;
   float: left;
-  mix-blend-mode: multiply;
 }
 main  {
   width: 1200px;
@@ -52,4 +51,18 @@ h2 {
   font-weight: bold;
   color: rgb(58, 123, 45);
   margin-bottom: 10px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+}
+#joske {
+  width: 200px;
+  float: left;
+  clear: left;
+}
+#herbert {
+  width: 200px;
+  float: left;
 }

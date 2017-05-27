@@ -1,36 +1,37 @@
 body {
   background-color: rgb(243,231,209);
   font-family: "helvetica";
+  width:100%;
 }
 .logo {
-  width: 100px;
+  width: 8.5%;
   border: 3px solid rgb(188, 51, 51);
   border-radius: 3px;
   float: left;
   margin-right: 20px;
 }
 header {
-  width: 1200px;
+  width: 75%;
   border: 5px solid rgb(58, 123, 45);
   border-top: 0px;
   border-radius: 3px;
   padding:5px;
-  height:110px;
+  height:auto;
   position: fixed;
   top: 0px;
-  left: 185px;
+  left: 11.5%;
   background-color: rgb(243,231,209);
   z-index: 10;
   box-shadow: 0px 5px 15px;
 }
 li img{
-  height: 100px;
+  width:21%;
   display: inline;
   float: left;
   mix-blend-mode: multiply;
 }
 main  {
-  width: 1200px;
+  width: 74%;
   margin:auto;
   margin-top:10px;
   padding:5px;
@@ -54,41 +55,85 @@ h2 {
   margin-bottom: 10px;
 }
 .troost{
-  width: 650px;
+  width: 55%;
   float: left;
 }
-.schuin{
-  width:300px;
-  height:300px;
-}
 .schuin {
-  width: 300px;
+  width: 27%;
   float: right;
   margin-right: 100px;
 }
 .zangeres{
-  height: 280px;
+  height: 30%;
   float:left;
-  margin-top: 72px;
+  margin-top: 10%;
   margin-right: 20px;
 }
 #zangeres {
-  height: 290px;
+  height: 100%;
   float: left;
   margin-bottom: 10px;
 }
 .levenslied{
-  height:300px;
-  width: 950px;
+  width: 70%;
   float:left;
+  margin-left: 30px;
+  margin-top: 3%;
 }
 h3 {
   font-size: 15px;
   display: block;
 }
 #fb {
-  width: 120px;
+  width: 12%;
+  left: 45%;
+  margin-top: 50px;
   position: absolute;
-  bottom: 150px;
-  left: 550px;
+  bottom: 10%;
+}
+@media screen and (max-width: 1300px) {
+    .schuin{
+      display:none;
+    }
+    .troost{
+      width:100%;
+    }
+    .zangeres{
+      display:none;
+    }
+    #titel{
+      height: 7%;
+    }
+    .levenslied{
+      width: 100%;
+      margin-left: 0px;
+    }
+    main {
+      height: 800px;
+    }
+}
+@media screen and (max-width: 900px){
+  h3 {
+    font-size: 12.5px;
+  }
+  h2 {
+    font-size: 17.5px;
+  }
+  p {
+    font-size: 12.5px;
+  }
+  main {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 600px){
+  h3 {
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 10px;
+  }
 }

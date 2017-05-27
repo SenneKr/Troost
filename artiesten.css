@@ -73,6 +73,7 @@ main  {
   width: 50%;
   float: left;
   clear: left;
+  margin-bottom: 30px;
 }
 .bianca img {
   width: 42%;
@@ -101,6 +102,26 @@ p {
   float: left;
   width: 40%;
 }
-@media screen and (max-width: 1300px) {
-
+img {
+  border-radius: 3%;
+}
+@media screen and (max-width: 1500px) {
+  .joske {
+    width: 100%;
+  }
+  .herbert {
+    clear: both;
+    width: 100%;
+  }
+  .rooswaal {
+    clear: both;
+    width: 100%;
+  }
+  .bianca {
+    clear: both;
+    width: 100%;
+  }
+  img {
+    width: 500px;
+  }
 }

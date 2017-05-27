@@ -46,23 +46,34 @@ main  {
   margin-bottom: 20px;
   float: left;
 }
+.joske {
+  width: 50%;
+  float: left;
+  clear: left;
+}
+.joske img {
+  width: 42%;
+  float: left;
+  margin-right: 10px;
+}
+.herbert {
+  width: 50%;
+  float: left;
+}
+.herbert img {
+  width: 42%;
+  float: left;
+  margin-right: 10px;
+}
 h2 {
   font-size: 20px;
   font-weight: bold;
   color: rgb(58, 123, 45);
   margin-bottom: 10px;
-}
-h3 {
-  font-size: 20px;
-  font-weight: bold;
   float: left;
+  width: 40%;
 }
-#joske {
-  width: 200px;
+p {
   float: left;
-  clear: left;
-}
-#herbert {
-  width: 200px;
-  float: left;
+  width: 40%;
 }

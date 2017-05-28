@@ -75,7 +75,7 @@ p {
   margin-bottom: 10px;
   font-size: 20px;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
   #titel{
     height: 7%;
     margin-top: -20px;
@@ -86,9 +86,20 @@ p {
     margin-top: -50px;
   }
   h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #titel {
+    margin-top: -50px;
+  }
+  h2 {
     font-size: 20px;
   }
   p {
-    font: 10px;
+    font-size: 15px;
   }
 }

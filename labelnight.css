@@ -48,3 +48,18 @@ main  {
   margin-bottom: 20px;
   float: left;
 }
+#affiche {
+  width: 30%;
+  border: 5px solid rgb(58, 123, 45);
+  border-radius: 10px;
+  float: left;
+  margin-left: 20%;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(58, 123, 45);
+  margin-bottom: 10px;
+  float: left;
+  clear: left;
+}

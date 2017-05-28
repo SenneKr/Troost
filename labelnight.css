@@ -93,9 +93,6 @@ p {
   }
 }
 @media screen and (max-width: 800px) {
-  #titel {
-    margin-top: -50px;
-  }
   h2 {
     font-size: 20px;
   }

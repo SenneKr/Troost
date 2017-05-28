@@ -76,4 +76,5 @@ p {
 }
 #fb {
   float: right;
+  border: 5px solid;
 }

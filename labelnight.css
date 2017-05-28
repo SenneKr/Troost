@@ -53,6 +53,7 @@ main  {
   border: 5px solid rgb(58, 123, 45);
   border-radius: 10px;
   float: left;
+  margin-top: -50px;
 }
 .info {
   width: 50%;

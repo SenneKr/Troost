@@ -75,8 +75,6 @@ p {
   font-size: 20px;
 }
 #fb {
-  width: 50%;
-  float: left;
-  border-radius: 5px;
-  margin-top: -50px;
+  position: relative;
+  bottom: 50px;
 }
